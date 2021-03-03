@@ -7,6 +7,6 @@ In this hackathon we predict crop yields using a combination of EVI and temperat
 
 
 To run the notebooks:
-a) Install jupyter notebooks on your local machine
-b) Clone this repository
-c) Open the .ipynb file by running a jupyter notebook server on your machine 
+1. Install jupyter notebooks on your local machine
+2. Clone this repository
+3. Open the .ipynb file by running a jupyter notebook server on your machine 
