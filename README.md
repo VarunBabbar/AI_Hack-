@@ -1,5 +1,5 @@
 # Imperial AI_Hack 
-In this hackathon we predict crop yields using a combination of Enhanced Vegetation Index (EVI) and temperature data. The jupyter notebooks show the pre-processing steps as well as the predictive models used.
+We predict crop yields using a combination of Enhanced Vegetation Index (EVI) and temperature data. The jupyter notebooks show the pre-processing steps as well as the predictive models used.
 1) We first perform some pre-processing and cleaning steps such as anomaly detection and removal, interpolation, and consolidation
 2) The initial model used was a CNN which acted on concatenated EVI and temperature data aggregated across different locations in Illinois. The architecture was a modified version of the one found at https://github.com/gabrieltseng/pycrop-yield-prediction. 
 3) A Gaussian Process model was then applied to the final layer features of the CNN as well as additional latitude and longitude data. 
